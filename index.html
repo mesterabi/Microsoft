@@ -7,6 +7,7 @@
     <title>Microsoft</title>
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -292,7 +293,7 @@
                     <i class="fa-solid fa-magnifying-glass fa-flip-horizontal text-lg py-4"></i>
                 </a>
                 <a href="" class="py-3.5 px-1.5 place-content-center">
-                    <img src="./images/logo.png" alt="logo" class="h-[23px] md:order-1">
+                    <img src="./images/xlogo.png" alt="logo" class="h-[23px] md:order-1">
                 </a>
                 <ul class="hidden md:flex md:flex-row md:w-7/12 md:px-5 lg:px-2">
                     <li class="text-[13px] leading-[54px]">
@@ -560,6 +561,8 @@
             </div>
             <!-- nav menu end (xl-size) -->
         </nav>
+    </header>
+    <main>
         <!-- shop now start -->
         <section class="w-screen bg-[#6B0E34] text-neutral-50 font-semibold">
             <a href="" class="flex justify-center items-center py-4 px-6">
@@ -571,7 +574,54 @@
             </a>
         </section>
         <!-- shop now start -->
-    </header>
+
+        <!-- swiper start -->
+        <section class="swiper w-full h-full">
+            <div class="mySwiper pb-14">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide px-1.5 flex flex-col">
+                        <img src="./images/sm-1.webp" alt="xbox" class="md:hidden">
+                        <div class="container p-5 pb-2 shadow-lg">
+                            <div class="flex flex-col">
+                                <div class="mb-3">
+                                    <h2 class="font-bold text-2xl">Buy Xbox Series X, get a free game</h2>
+                                </div>
+                                <div class="mb-3">
+                                    <p>Get your choice of select game when you purchase a new Xbox Series X console.</p>
+                                </div>
+                                <div>
+                                    <a href="" class="inline-block py-2 px-3 my-4 font-bold bg-black text-white">
+                                        Shop Xbox Sereis X
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                <div class="swiper-pagination flex flex-row static justify-center items-center p-3"></div>
+            </div>
+        </section>
+        <!-- swiper end -->
+    </main>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
