@@ -10,8 +10,10 @@
 </head>
 
 <body>
+    <!-- header start -->
     <header class="h-[54px]">
         <nav class="flex flex-row h-full">
+            <!-- bar menu start (md-size) -->
             <div class="menu-md flex w-1/12 sm:w-[5%] md:hidden">
                 <input type="radio" name="menu" id="show" class="hidden peer/show">
                 <label for="show" class="p-3.5 cursor-pointer peer-checked/show:hidden">
@@ -280,6 +282,9 @@
                     </ul>
                 </div>
             </div>
+            <!-- bar menu end (md-size) -->
+
+            <!-- nav menu start (xl-size) -->
             <div
                 class="flex flex-row w-11/12 sm:w-[95%] h-full justify-between md:justify-evenly mx-3 md:w-full md:px-6 md:mx-0 xl:px-[74px]">
                 <a href="" class="group flex flex-row gap-2 md:order-2 items-center md:px-2 lg:p-0">
@@ -330,6 +335,7 @@
                             <p class="inline group-hover:border-b-2 border-stone-800">Support</p>
                         </a>
                     </li>
+                    <!-- more dropdown menu start -->
                     <li class="group text-[13px] mx-2 leading-[54px] lg:hidden">
                         <a href="" class="inline-block h-full ">
                             <p class="inline group-hover:border-b-2 border-stone-800">More
@@ -358,7 +364,9 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- more dropdown menu end -->
                 </ul>
+                <!-- all microsoft dropdown menu start -->
                 <div class="group w-40 xbox:w-44 justify-end hidden md:flex px-3 ">
                     <div class="text-[13px] leading-[54px]">
                         <a href="" class="no-underline inline-block h-full">
@@ -373,7 +381,7 @@
                             <i class="fa-solid fa-chevron-down px-1"></i>
                         </label>
                         <div
-                            class="peer-checked/allclose:hidden peer-checked/allmicro:flex absolute top-[54px] right-10 w-[75vw] bg-neutral-100 border-[0.8px] border-neutral-200 flex-col">
+                            class="peer-checked/allclose:hidden peer-checked/allmicro:flex absolute top-[54px] right-10 w-[80vw] bg-neutral-100 border-[0.8px] border-neutral-200 flex-col">
                             <div class="flex flex-row flex-wrap w-full text-[13px]">
                                 <ul class="w-48 py-4">
                                     <li class="w-full h-11 leading-4 font-semibold">
@@ -538,6 +546,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- all microsoft dropdown menu end -->
                 <div class="flex flex-row sm:w-[10%] md:w-auto xl:w-[15%] justify-evenly gap-2 md:order-3 lg:gap-0">
                     <a href="" class="group flex flex-row gap-2 items-center lg:px-1">
                         <p class="hidden xl:block text-xs group-hover:border-b-2 border-stone-800">Cart</p>
@@ -549,7 +558,19 @@
                     </a>
                 </div>
             </div>
+            <!-- nav menu end (xl-size) -->
         </nav>
+        <!-- shop now start -->
+        <section class="w-screen bg-[#6B0E34] text-neutral-50 font-semibold">
+            <a href="" class="flex justify-center items-center py-4 px-6">
+                <p class="text-center">Merry reasons to shop now: price projection, extended free
+                    returns + free shipping</p>
+                <span class="w-[5%] content-end pl-2">
+                    <i class="fa-solid fa-chevron-right inline-block"></i>
+                </span>
+            </a>
+        </section>
+        <!-- shop now start -->
     </header>
 </body>
 
