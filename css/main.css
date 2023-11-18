@@ -591,10 +591,6 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -613,6 +609,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .block {
@@ -655,20 +655,12 @@ video {
   height: 38px;
 }
 
-.h-\[420px\] {
-  height: 420px;
-}
-
 .h-\[54px\] {
   height: 54px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-\[\] {
-  height: ;
 }
 
 .w-1\/12 {
@@ -861,6 +853,11 @@ video {
   padding-bottom: 0.125rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -916,10 +913,6 @@ video {
 
 .align-top {
   vertical-align: top;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-2xl {
@@ -1147,27 +1140,43 @@ video {
 }
 
 @media (min-width: 540px) {
-  .col2deals\:inline-block {
+  .col2\:inline-block {
     display: inline-block;
   }
 
-  .col2deals\:w-\[49\.5\%\] {
+  .col2\:w-\[49\.5\%\] {
     width: 49.5%;
   }
 
-  .col2deals\:pl-2 {
+  .col2\:w-\[49\.6\%\] {
+    width: 49.6%;
+  }
+
+  .col2\:w-\[49\.69\%\] {
+    width: 49.69%;
+  }
+
+  .col2\:w-\[49\.68\%\] {
+    width: 49.68%;
+  }
+
+  .col2\:w-\[49\.67\%\] {
+    width: 49.67%;
+  }
+
+  .col2\:pl-2 {
     padding-left: 0.5rem;
   }
 
-  .col2deals\:pl-2\.5 {
+  .col2\:pl-2\.5 {
     padding-left: 0.625rem;
   }
 
-  .col2deals\:pr-2 {
+  .col2\:pr-2 {
     padding-right: 0.5rem;
   }
 
-  .col2deals\:pr-2\.5 {
+  .col2\:pr-2\.5 {
     padding-right: 0.625rem;
   }
 }
@@ -1217,24 +1226,12 @@ video {
     margin-right: 0.75rem;
   }
 
-  .md\:mt-4 {
-    margin-top: 1rem;
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .md\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .md\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
-  .md\:mt-16 {
-    margin-top: 4rem;
   }
 
   .md\:block {
@@ -1282,6 +1279,11 @@ video {
     padding-right: 0.25rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1300,6 +1302,16 @@ video {
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:pb-72 {
@@ -1413,40 +1425,49 @@ video {
 }
 
 @media (min-width: 1080px) {
-  .col4deals\:w-\[24\] {
-    width: 24;
-  }
-
-  .col4deals\:w-\[24\.5\] {
-    width: 24.5;
-  }
-
-  .col4deals\:w-\[24\%\] {
-    width: 24%;
-  }
-
-  .col4deals\:w-\[24\.5\%\] {
+  .col4\:w-\[24\.5\%\] {
     width: 24.5%;
   }
 
-  .col4deals\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .col4\:w-\[24\.59\%\] {
+    width: 24.59%;
   }
 
-  .col4deals\:px-3 {
+  .col4\:w-\[24\.6\%\] {
+    width: 24.6%;
+  }
+
+  .col4\:w-\[24\.67\%\] {
+    width: 24.67%;
+  }
+
+  .col4\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .col4\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
 
-  .col4deals\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .col4\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
-  .col4deals\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .col4\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .col4\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .col4\:text-\[29px\] {
+    font-size: 29px;
   }
 }
 
@@ -1484,6 +1505,31 @@ video {
 
   .xxl\:w-\[36\%\] {
     width: 36%;
+  }
+
+  .xxl\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .xxl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xxl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xxl\:px-\[70px\] {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .xxl\:px-\[7\] {
+    padding-left: 7;
+    padding-right: 7;
   }
 
   .xxl\:text-4xl {
