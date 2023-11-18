@@ -661,7 +661,7 @@
                 </div>
                 <!-- <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div> -->
-                <div class="swiper-pagination block static p-3"></div>
+                <div class="swiper-pagination static p-3 flex justify-center items-center"></div>
             </div>
         </section>
         <!-- swiper end -->
@@ -923,20 +923,34 @@
         </section>
         <!-- discover end -->
 
+        <!-- social media start -->
+        <section class="w-full col4:px-10 px-3 xxl:px-20 md:mt-16 mt-6">
+            <div class="flex flex-row gap-x-10 px-3">
+                <div class="">
+                    Follow Microsoft
+                </div>
+                <div class="">
+                    <i class="fa-brands fa-facebook-f text-2xl"></i>
+                </div>
+                <div class="">
+                    <i class="fa-brands fa-x-twitter text-2xl"></i>
+                </div>
+            </div>
+            <div class="mt-6 md:mt-12">
+                <a href="" class="underline text-[#6B0E34] text-sm">
+                    Accessibility feedback
+                </a>
+            </div>
+        </section>
+        <!-- social media end -->
+
+        <!-- back to top start -->
+        
+        <!-- back to top end -->
+
     </main>
     <script src="./swiper/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            /*autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },*/
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
