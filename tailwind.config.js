@@ -13,6 +13,7 @@ module.exports = {
       friday: "1060px",
       col2: "540px",
       col4: "1080px",
+      copyright: "650px",
     },
     extend: {},
   },
